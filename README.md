@@ -4,7 +4,7 @@ Ovaj projekt predstavlja responzivnu web stranicu o američkim filmovima izrađe
 
 ## Web stranica
 
-👉 https://lucpuc244.github.io/lv1-web-filmovi/
+https://lucpuc244.github.io/lv1-web-filmovi/
 
 ## GitHub repozitorij
 
