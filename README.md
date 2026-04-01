@@ -2,7 +2,7 @@
 
 Web stranica za prikaz 20 američkih filmova kroz tablicu, galeriju i grafikon.
 
-##Funkcionalnosti
+## Funkcionalnosti
 - tablica filmova  
 - klik na film → detalji (poster + opis)  
 - galerija postera  
