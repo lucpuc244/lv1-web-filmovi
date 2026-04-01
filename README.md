@@ -1,4 +1,4 @@
-# 🎬 LucFilmVault
+# 🎬 Movie site 
 
 Web stranica za prikaz 20 američkih filmova kroz tablicu, galeriju i grafikon.
 
@@ -12,7 +12,7 @@ Web stranica za prikaz 20 američkih filmova kroz tablicu, galeriju i grafikon.
 ## Stranica
 https://lucpuc244.github.io/lv1-web-filmovi/
 
-##Repozitorij
+## Repozitorij
 https://github.com/lucpuc244/lv1-web-filmovi
 
 ## ⚙️ Tehnologije
