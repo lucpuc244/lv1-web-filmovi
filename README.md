@@ -15,6 +15,6 @@ https://lucpuc244.github.io/lv1-web-filmovi/
 ## Repozitorij
 https://github.com/lucpuc244/lv1-web-filmovi
 
-## ⚙️ Tehnologije
+## Tehnologije
 - HTML  
 - CSS  
