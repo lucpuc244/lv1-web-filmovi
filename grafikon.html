@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CSS-only vizualizacija žanrova američkih filmova s animacijom i hover efektima.">
+    <title>Grafikon filmova</title>
+    <link rel="stylesheet" href="style_grafikon.css">
+</head>
+<body>
+    <header class="topbar">
+        <div class="wrapper">
+            <p class="mini-label">lucix</p>
+            <h1>Vizualizacija žanrova</h1>
+            <p>Na velikim ekranima prikazuje se donut grafikon, a na manjim ekranima histogram.</p>
+        </div>
+    </header>
+
+    <nav class="subnav wrapper" aria-label="Navigacija stranice">
+        <a href="index.html">Početna</a>
+        <a href="grafikon.html" class="active">Grafikon</a>
+        <a href="slike.html">Galerija</a>
+    </nav>
+
+    <main class="wrapper">
+        <section class="graph-layout">
+            <article class="chart-card">
+                <div class="chart-head">
+                    <div>
+                        <p class="small-tag">Desktop prikaz</p>
+                        <h2>Donut grafikon žanrova</h2>
+                    </div>
+                    <p class="chart-note">Hoveraj dole nad žanrovima za dodatne informacije.</p>
+                </div>
+
+                <div class="donut-scene">
+                    <div class="donut-chart"></div>
+                    <div class="donut-center">
+                        <span>20</span>
+                        <small>filmova</small>
+                    </div>
+                </div>
+
+                <ul class="legend">
+                    <li class="action"><span class="dot"></span><span>Akcija</span><strong>4</strong></li>
+                    <li class="scifi"><span class="dot"></span><span>Sci-Fi</span><strong>4</strong></li>
+                    <li class="drama"><span class="dot"></span><span>Drama</span><strong>4</strong></li>
+                    <li class="comedy"><span class="dot"></span><span>Komedija</span><strong>3</strong></li>
+                    <li class="horror"><span class="dot"></span><span>Horor</span><strong>2</strong></li>
+                    <li class="animation"><span class="dot"></span><span>Animacija</span><strong>3</strong></li>
+                </ul>
+            </article>
+
+            <aside class="summary-card">
+                <h2>Sažetak podataka</h2>
+                <p>Ukupno filmova: <strong>20</strong></p>
+                <p>Broj žanrova: <strong>6</strong></p>
+                <p>Najviše: <strong>Akcija / Sci-Fi / Drama</strong></p>
+                <p>Najmanje: <strong>Horor</strong></p>
+
+                <div class="tip-box">
+                    <h3>Fun fact</h3>
+                    <p>Akcija, sci-fi i drama zajedno dominiraju kolekcijom, što pokazuje koliko su ti žanrovi najpopularniji u američkoj filmskoj industriji.</p>
+                </div>
+            </aside>
+        </section>
+
+        <section class="bars-card">
+            <div class="chart-head">
+                <div>
+                    <p class="small-tag">Mobile / tablet prikaz</p>
+                    <h2>Histogram žanrova</h2>
+                </div>
+            </div>
+
+            <div class="bar-chart">
+                <div class="bar-item">
+                    <div class="bar action-bar" style="--value: 4;" data-info="Akcija • 4 filma"></div>
+                    <p>Akcija</p>
+                </div>
+                <div class="bar-item">
+                    <div class="bar scifi-bar" style="--value: 4;" data-info="Sci-Fi • 4 filma"></div>
+                    <p>Sci-Fi</p>
+                </div>
+                <div class="bar-item">
+                    <div class="bar drama-bar" style="--value: 4;" data-info="Drama • 4 filma"></div>
+                    <p>Drama</p>
+                </div>
+                <div class="bar-item">
+                    <div class="bar comedy-bar" style="--value: 3;" data-info="Komedija • 3 filma"></div>
+                    <p>Komedija</p>
+                </div>
+                <div class="bar-item">
+                    <div class="bar horror-bar" style="--value: 2;" data-info="Horor • 2 filma"></div>
+                    <p>Horor</p>
+                </div>
+                <div class="bar-item">
+                    <div class="bar animation-bar" style="--value: 3;" data-info="Animacija • 3 filma"></div>
+                    <p>Animacija</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
