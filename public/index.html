@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Američki filmovi, tablica podataka, galerija postera i interaktivni grafikon.">
+    <meta name="author" content="Tvoje ime">
+    <title>𝔩𝔲𝔠𝔦𝔵</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="wrapper">
+            <p class="eyebrow">Filmovi • tablica • galerija • grafikon</p>
+            <h1>𝔩𝔲𝔠𝔦𝔵</h1>
+            <p class="subtitle">
+                Pregled 20 američkih filmova kroz tablicu podataka, postere i responzivni grafikon.
+            </p>
+        </div>
+    </header>
+
+    <div class="nav-wrap">
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="menu-button">☰ Menu</label>
+
+        <nav class="main-nav" aria-label="Glavna navigacija">
+            <ul>
+                <li><a href="index.html" class="active">Početna</a></li>
+                <li><a href="grafikon.html">Grafikon</a></li>
+                <li><a href="slike.html">Galerija</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main class="wrapper">
+
+        <section class="intro card">
+            <div>
+                <h2>Top izbor američkih filmova</h2>
+                <p>
+                    Hoveraj nad naslovima filmova za mali preview postera, a klikom na film otvori detalje
+                    s opisom, posterom i osnovnim informacijama.
+                </p>
+            </div>
+
+            <article class="highlight-box">
+                <h3>Dark Knight-FunFact</h3>
+                <p>
+                    The Dark Knight je jedan od prvih velikih filmova koji je koristio IMAX kamere za igrane scene.
+                </p>
+            </article>
+        </section>
+
+        <section class="content-grid">
+            <div class="table-card card">
+                <div class="section-head">
+                    <h2>Tablica filmova</h2>
+                    <a class="ghost-link" href="grafikon.html">Pogledaj grafikon</a>
+                </div>
+
+                <div class="table-wrap">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Naslov</th>
+                                <th>Godina</th>
+                                <th>Žanr</th>
+                                <th>Trajanje</th>
+                                <th>Država</th>
+                                <th>Ocjena</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+                                <td>1</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                The Dark Knight
+                                                <img src="posteri/dark-knight.jpg" alt="Preview postera filma The Dark Knight" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/dark-knight.jpg" alt="Poster filma The Dark Knight" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>The Dark Knight</h3>
+                                                <p><strong>Godina:</strong> 2008</p>
+                                                <p><strong>Žanr:</strong> Akcija</p>
+                                                <p><strong>Trajanje:</strong> 152 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 9.0</p>
+                                                <p><strong>Opis:</strong> Batman se suočava s Jokerom, kriminalnim genijem koji unosi kaos u Gotham City.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2008</td>
+                                <td>Akcija</td>
+                                <td>152 min</td>
+                                <td>SAD</td>
+                                <td>9.0</td>
+                            </tr>
+
+                            <tr>
+                                <td>2</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Mad Max: Fury Road
+                                                <img src="posteri/mad-max-fury-road.jpg" alt="Preview postera filma Mad Max: Fury Road" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/mad-max-fury-road.jpg" alt="Poster filma Mad Max: Fury Road" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Mad Max: Fury Road</h3>
+                                                <p><strong>Godina:</strong> 2015</p>
+                                                <p><strong>Žanr:</strong> Akcija</p>
+                                                <p><strong>Trajanje:</strong> 120 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 8.1</p>
+                                                <p><strong>Opis:</strong> U postapokaliptičnom svijetu Max i Furiosa pokušavaju pobjeći tiraninu kroz nemilosrdnu pustinju.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2015</td>
+                                <td>Akcija</td>
+                                <td>120 min</td>
+                                <td>SAD</td>
+                                <td>8.1</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                John Wick
+                                                <img src="posteri/john-wick.jpg" alt="Preview postera filma John Wick" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/john-wick.jpg" alt="Poster filma John Wick" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>John Wick</h3>
+                                                <p><strong>Godina:</strong> 2014</p>
+                                                <p><strong>Žanr:</strong> Akcija</p>
+                                                <p><strong>Trajanje:</strong> 101 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 7.4</p>
+                                                <p><strong>Opis:</strong> Bivši plaćeni ubojica vraća se u svijet osvete nakon osobnog gubitka.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2014</td>
+                                <td>Akcija</td>
+                                <td>101 min</td>
+                                <td>SAD</td>
+                                <td>7.4</td>
+                            </tr>
+
+                            <tr>
+                                <td>4</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Gladiator
+                                                <img src="posteri/gladiator.jpg" alt="Preview postera filma Gladiator" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/gladiator.jpg" alt="Poster filma Gladiator" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Gladiator</h3>
+                                                <p><strong>Godina:</strong> 2000</p>
+                                                <p><strong>Žanr:</strong> Akcija</p>
+                                                <p><strong>Trajanje:</strong> 155 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 8.5</p>
+                                                <p><strong>Opis:</strong> Rimski general postaje gladijator i traži pravdu nakon izdaje i tragedije koja mu je uništila život.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2000</td>
+                                <td>Akcija</td>
+                                <td>155 min</td>
+                                <td>SAD</td>
+                                <td>8.5</td>
+                            </tr>
+
+                            <tr>
+                                <td>5</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Inception
+                                                <img src="posteri/inception.jpg" alt="Preview postera filma Inception" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/inception.jpg" alt="Poster filma Inception" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Inception</h3>
+                                                <p><strong>Godina:</strong> 2010</p>
+                                                <p><strong>Žanr:</strong> Sci-Fi</p>
+                                                <p><strong>Trajanje:</strong> 148 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 8.8</p>
+                                                <p><strong>Opis:</strong> Tim specijalista ulazi u snove drugih ljudi kako bi ukrao ili usadio ideju duboko u podsvijest.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2010</td>
+                                <td>Sci-Fi</td>
+                                <td>148 min</td>
+                                <td>SAD</td>
+                                <td>8.8</td>
+                            </tr>
+
+                            <tr>
+                                <td>6</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Interstellar
+                                                <img src="posteri/interstellar.jpg" alt="Preview postera filma Interstellar" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/interstellar.jpg" alt="Poster filma Interstellar" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Interstellar</h3>
+                                                <p><strong>Godina:</strong> 2014</p>
+                                                <p><strong>Žanr:</strong> Sci-Fi</p>
+                                                <p><strong>Trajanje:</strong> 169 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 8.7</p>
+                                                <p><strong>Opis:</strong> Skupina astronauta putuje kroz crvotočinu u potrazi za novim domom za čovječanstvo.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2014</td>
+                                <td>Sci-Fi</td>
+                                <td>169 min</td>
+                                <td>SAD</td>
+                                <td>8.7</td>
+                            </tr>
+
+                            <tr>
+                                <td>7</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                The Matrix
+                                                <img src="posteri/matrix.jpg" alt="Preview postera filma The Matrix" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/matrix.jpg" alt="Poster filma The Matrix" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>The Matrix</h3>
+                                                <p><strong>Godina:</strong> 1999</p>
+                                                <p><strong>Žanr:</strong> Sci-Fi</p>
+                                                <p><strong>Trajanje:</strong> 136 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 8.7</p>
+                                                <p><strong>Opis:</strong> Haker Neo otkriva da je svijet koji poznaje samo simulacija i uključuje se u borbu za slobodu.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>1999</td>
+                                <td>Sci-Fi</td>
+                                <td>136 min</td>
+                                <td>SAD</td>
+                                <td>8.7</td>
+                            </tr>
+
+                            <tr>
+                                <td>8</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Avatar
+                                                <img src="posteri/avatar.jpg" alt="Preview postera filma Avatar" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/avatar.jpg" alt="Poster filma Avatar" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Avatar</h3>
+                                                <p><strong>Godina:</strong> 2009</p>
+                                                <p><strong>Žanr:</strong> Sci-Fi</p>
+                                                <p><strong>Trajanje:</strong> 162 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 7.9</p>
+                                                <p><strong>Opis:</strong> Na udaljenom planetu Pandora bivši marinac otkriva novi svijet i sukob između pohlepe i prirode.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2009</td>
+                                <td>Sci-Fi</td>
+                                <td>162 min</td>
+                                <td>SAD</td>
+                                <td>7.9</td>
+                            </tr>
+
+                            <tr>
+                                <td>9</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                The Shawshank Redemption
+                                                <img src="posteri/the-shawshank-redemption.jpg" alt="Preview postera filma The Shawshank Redemption" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/the-shawshank-redemption.jpg" alt="Poster filma The Shawshank Redemption" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>The Shawshank Redemption</h3>
+                                                <p><strong>Godina:</strong> 1994</p>
+                                                <p><strong>Žanr:</strong> Drama</p>
+                                                <p><strong>Trajanje:</strong> 142 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 9.3</p>
+                                                <p><strong>Opis:</strong> Nevin čovjek osuđen je na dugogodišnji zatvor, gdje kroz prijateljstvo i nadu pronalazi smisao opstanka.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>1994</td>
+                                <td>Drama</td>
+                                <td>142 min</td>
+                                <td>SAD</td>
+                                <td>9.3</td>
+                            </tr>
+
+                            <tr>
+                                <td>10</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Forrest Gump
+                                                <img src="posteri/forrest-gump.jpg" alt="Preview postera filma Forrest Gump" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/forrest-gump.jpg" alt="Poster filma Forrest Gump" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Forrest Gump</h3>
+                                                <p><strong>Godina:</strong> 1994</p>
+                                                <p><strong>Žanr:</strong> Drama</p>
+                                                <p><strong>Trajanje:</strong> 142 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 8.8</p>
+                                                <p><strong>Opis:</strong> Život jednostavnog i dobrodušnog čovjeka isprepliće se s velikim povijesnim događajima Amerike.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>1994</td>
+                                <td>Drama</td>
+                                <td>142 min</td>
+                                <td>SAD</td>
+                                <td>8.8</td>
+                            </tr>
+
+                            <tr>
+                                <td>11</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Fight Club
+                                                <img src="posteri/fight-club.jpg" alt="Preview postera filma Fight Club" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/fight-club.jpg" alt="Poster filma Fight Club" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Fight Club</h3>
+                                                <p><strong>Godina:</strong> 1999</p>
+                                                <p><strong>Žanr:</strong> Drama</p>
+                                                <p><strong>Trajanje:</strong> 139 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 8.8</p>
+                                                <p><strong>Opis:</strong> Nezadovoljni uredski radnik ulazi u mračan i kaotičan svijet tajnog kluba borbi.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>1999</td>
+                                <td>Drama</td>
+                                <td>139 min</td>
+                                <td>SAD</td>
+                                <td>8.8</td>
+                            </tr>
+
+                            <tr>
+                                <td>12</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                The Social Network
+                                                <img src="posteri/the-social-network.jpg" alt="Preview postera filma The Social Network" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/the-social-network.jpg" alt="Poster filma The Social Network" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>The Social Network</h3>
+                                                <p><strong>Godina:</strong> 2010</p>
+                                                <p><strong>Žanr:</strong> Drama</p>
+                                                <p><strong>Trajanje:</strong> 120 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 7.8</p>
+                                                <p><strong>Opis:</strong> Film prikazuje nastanak Facebooka i sukobe koji su pratili njegov meteorski uspon.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2010</td>
+                                <td>Drama</td>
+                                <td>120 min</td>
+                                <td>SAD</td>
+                                <td>7.8</td>
+                            </tr>
+
+                            <tr>
+                                <td>13</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                The Hangover
+                                                <img src="posteri/the-hangover.jpg" alt="Preview postera filma The Hangover" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/the-hangover.jpg" alt="Poster filma The Hangover" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>The Hangover</h3>
+                                                <p><strong>Godina:</strong> 2009</p>
+                                                <p><strong>Žanr:</strong> Komedija</p>
+                                                <p><strong>Trajanje:</strong> 100 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 7.7</p>
+                                                <p><strong>Opis:</strong> Trojica prijatelja nakon burne momačke večeri pokušavaju rekonstruirati što se dogodilo prethodne noći.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2009</td>
+                                <td>Komedija</td>
+                                <td>100 min</td>
+                                <td>SAD</td>
+                                <td>7.7</td>
+                            </tr>
+
+                            <tr>
+                                <td>14</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Superbad
+                                                <img src="posteri/superbad.jpg" alt="Preview postera filma Superbad" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/superbad.jpg" alt="Poster filma Superbad" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Superbad</h3>
+                                                <p><strong>Godina:</strong> 2007</p>
+                                                <p><strong>Žanr:</strong> Komedija</p>
+                                                <p><strong>Trajanje:</strong> 113 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 7.6</p>
+                                                <p><strong>Opis:</strong> Dva srednjoškolca kreću u niz neugodnih i smiješnih situacija prije kraja školovanja.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2007</td>
+                                <td>Komedija</td>
+                                <td>113 min</td>
+                                <td>SAD</td>
+                                <td>7.6</td>
+                            </tr>
+
+                            <tr>
+                                <td>15</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Step Brothers
+                                                <img src="posteri/step-brothers.jpg" alt="Preview postera filma Step Brothers" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/step-brothers.jpg" alt="Poster filma Step Brothers" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Step Brothers</h3>
+                                                <p><strong>Godina:</strong> 2008</p>
+                                                <p><strong>Žanr:</strong> Komedija</p>
+                                                <p><strong>Trajanje:</strong> 98 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 6.9</p>
+                                                <p><strong>Opis:</strong> Dva odrasla muškarca prisiljena su živjeti zajedno nakon što se njihovi roditelji vjenčaju.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2008</td>
+                                <td>Komedija</td>
+                                <td>98 min</td>
+                                <td>SAD</td>
+                                <td>6.9</td>
+                            </tr>
+
+                            <tr>
+                                <td>16</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                The Conjuring
+                                                <img src="posteri/conjuring.jpg" alt="Preview postera filma The Conjuring" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/conjuring.jpg" alt="Poster filma The Conjuring" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>The Conjuring</h3>
+                                                <p><strong>Godina:</strong> 2013</p>
+                                                <p><strong>Žanr:</strong> Horor</p>
+                                                <p><strong>Trajanje:</strong> 112 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 7.5</p>
+                                                <p><strong>Opis:</strong> Paranormalni istražitelji pokušavaju pomoći obitelji koju terorizira zlokobna prisutnost.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2013</td>
+                                <td>Horor</td>
+                                <td>112 min</td>
+                                <td>SAD</td>
+                                <td>7.5</td>
+                            </tr>
+
+                            <tr>
+                                <td>17</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Get Out
+                                                <img src="posteri/get-out.jpg" alt="Preview postera filma Get Out" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/get-out.jpg" alt="Poster filma Get Out" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Get Out</h3>
+                                                <p><strong>Godina:</strong> 2017</p>
+                                                <p><strong>Žanr:</strong> Horor</p>
+                                                <p><strong>Trajanje:</strong> 104 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 7.8</p>
+                                                <p><strong>Opis:</strong> Mladić tijekom posjeta obitelji svoje djevojke otkriva uznemirujuće i opasne tajne.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2017</td>
+                                <td>Horor</td>
+                                <td>104 min</td>
+                                <td>SAD</td>
+                                <td>7.8</td>
+                            </tr>
+
+                            <tr>
+                                <td>18</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Toy Story
+                                                <img src="posteri/toy-story.jpg" alt="Preview postera filma Toy Story" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/toy-story.jpg" alt="Poster filma Toy Story" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Toy Story</h3>
+                                                <p><strong>Godina:</strong> 1995</p>
+                                                <p><strong>Žanr:</strong> Animacija</p>
+                                                <p><strong>Trajanje:</strong> 81 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 8.3</p>
+                                                <p><strong>Opis:</strong> Igračke ožive kad ljudi nisu prisutni, a rivalstvo između Woodyja i Buzza prerasta u prijateljstvo.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>1995</td>
+                                <td>Animacija</td>
+                                <td>81 min</td>
+                                <td>SAD</td>
+                                <td>8.3</td>
+                            </tr>
+
+                            <tr>
+                                <td>19</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Frozen
+                                                <img src="posteri/frozen.jpg" alt="Preview postera filma Frozen" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/frozen.jpg" alt="Poster filma Frozen" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Frozen</h3>
+                                                <p><strong>Godina:</strong> 2013</p>
+                                                <p><strong>Žanr:</strong> Animacija</p>
+                                                <p><strong>Trajanje:</strong> 102 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 7.4</p>
+                                                <p><strong>Opis:</strong> Princeza kreće u potragu za sestrom čije moći leda prijete cijelom kraljevstvu.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2013</td>
+                                <td>Animacija</td>
+                                <td>102 min</td>
+                                <td>SAD</td>
+                                <td>7.4</td>
+                            </tr>
+
+                            <tr>
+                                <td>20</td>
+                                <td>
+                                    <details class="movie-details">
+                                        <summary>
+                                            <span class="movie-title">
+                                                Shrek
+                                                <img src="posteri/shrek.jpg" alt="Preview postera filma Shrek" class="hover-thumb">
+                                            </span>
+                                        </summary>
+                                        <div class="movie-info">
+                                            <img src="posteri/shrek.jpg" alt="Poster filma Shrek" class="detail-poster">
+                                            <div class="movie-text">
+                                                <h3>Shrek</h3>
+                                                <p><strong>Godina:</strong> 2001</p>
+                                                <p><strong>Žanr:</strong> Animacija</p>
+                                                <p><strong>Trajanje:</strong> 90 min</p>
+                                                <p><strong>Država:</strong> SAD</p>
+                                                <p><strong>Ocjena:</strong> 7.9</p>
+                                                <p><strong>Opis:</strong> Ogar i magarac kreću u pustolovinu spašavanja princeze u duhovitoj bajci koja ruši klasične klišeje.</p>
+                                            </div>
+                                        </div>
+                                    </details>
+                                </td>
+                                <td>2001</td>
+                                <td>Animacija</td>
+                                <td>90 min</td>
+                                <td>SAD</td>
+                                <td>7.9</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <aside class="aside-card card">
+                <h2>Poster tjedna</h2>
+
+                <img
+                    src="posteri/interstellar.jpg"
+                    alt="Poster filma Interstellar"
+                    class="featured-poster"
+                    loading="lazy"
+                >
+
+                <div class="poster-copy">
+                    <h3>Interstellar</h3>
+                    <p>
+                        Klikom na nazive filmova u tablici otvaraju se detalji s većim posterom i osnovnim informacijama o filmu.
+                    </p>
+                    <a class="primary-link" href="slike.html">Otvori galeriju</a>
+                </div>
+            </aside>
+        </section>
+
+        <section class="info-panels">
+            <article class="info-card card">
+                <h2>Interstellar-FunFact</h2>
+                <p>
+                    Za Interstellar je posađeno pravo polje kukuruza kako bi film izgledao realističnije.
+                </p>
+            </article>
+
+            <article class="info-card card">
+                <h2>Matrix-FunFact</h2>
+                <p>
+                    Zeleni kod u The Matrixu nastao je iz znakova iz kuharice za sushi.
+                </p>
+            </article>
+
+            <article class="info-card card">
+                <h2>Forrest Gump-FunFact</h2>
+                <p>
+                    Originalna klupa iz Forrest Gumpa danas se čuva u muzeju u Savannahju.
+                </p>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="wrapper footer-inner">
+            <p>&copy; 2026. Lucix</p>
+            <p>Web projekt</p>
+        </div>
+    </footer>
+
+</body>
+</html>
