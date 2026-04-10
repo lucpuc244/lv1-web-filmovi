@@ -18,3 +18,6 @@ https://github.com/lucpuc244/lv1-web-filmovi
 ## Tehnologije
 - HTML  
 - CSS  
+
+## Railway deploy
+https://lv1-web-filmovi-production.up.railway.app
